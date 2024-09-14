@@ -21,7 +21,7 @@ const AppRoutes=() => {
     
       {path: '/',element:<Home />},
       {path: '/clothes',element:<Home />},
-      {path: '/electrónica',element:<Home />},
+      {path: '/electronics',element:<Home />},
       {path: '/furniture',element:<Home />},
       {path: '/jewelery',element:<Home />},
       {path: '/others',element:<Home />},

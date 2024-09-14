@@ -2,11 +2,14 @@ import { ChevronRightIcon } from "@heroicons/react/24/solid";
 const OrdersCard = (props) => {
   const { totalPrice, totalProducts } = props;
 
+  const time=Date.now();
+  const hoy = new Date(time)
+
   return (
     <div className="flex justify-between items-center  border border-black p-4 w-80 rounded-lg mb-4">
       <div className="flex justify-between w-full">
         <p className="flex flex-col">
-          <span className=" font-light">01.02.23</span>
+          <span className=" font-light"  > (fecha) </span>
           <span className=" font-light">{totalProducts} Articles </span>
         </p>
         <p className="flex items-center gap-2">

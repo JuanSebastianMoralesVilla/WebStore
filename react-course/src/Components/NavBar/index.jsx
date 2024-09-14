@@ -41,12 +41,12 @@ return (
             </li>
             <li>
                 <NavLink 
-                to= '/electrónica'
-                onClick={()=> context.setSearchByCategory('electrónica')}
+                to= '/electronics'
+                onClick={()=> context.setSearchByCategory('electronics')}
                 className={({isActive})=>
                 isActive ? activeStyle: undefined
                 }>
-                   Electrónica
+                   Electronics
                 </NavLink>
             </li>
             <li>
